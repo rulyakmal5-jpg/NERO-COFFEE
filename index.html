@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NERO COFFEE SHOP</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+  
+  <header class="header">
+    <h2 class="logo-nav">
+      <i class="bi bi-cup-hot"></i> NERO COFFEE
+    </h2>
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="cart.html">Keranjang</a>
+      <a href="#maps-contact">Contact</a>
+      <a href="login.html" id="authLink">Login</a>
+    </nav>
+
+    <div class="menu-toggle" id="menuToggle">
+      <i class="bi bi-list"></i>
+    </div>
+
+    <form action="#" class="search-bar" id="searchForm">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button type="submit"><i class="bi bi-search"></i></button>
+    </form>
+  </header>
+
+  <section id="home">
+    <div class="container">
+      <div class="content">
+        <h2 class="logo"><i class="bi bi-cup-hot"></i> NERO COFFEE</h2>
+        <div class="text-sci">
+          <h2>Welcome!<br><span>to Nero Coffee Shop</span></h2>
+          <p>Nikmati perpaduan sempurna antara biji kopi pilihan dan suasana yang hangat. Kami hadir untuk memberikan pengalaman kopi terbaik di setiap cangkir yang Anda nikmati.</p>
+          <div class="social-icons">
+             <a href="#product" class="btn">Lihat Produk</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>Tentang Kami</h2>
+      <p>Nero Coffee adalah destinasi utama bagi para pecinta kopi yang menghargai kualitas dan kenyamanan. Dengan biji kopi premium yang dipanggang dengan sempurna, kami berkomitmen untuk menjaga cita rasa autentik di setiap sajian kami.</p>
+    </div>
+  </section>
+
+  <section id="product">
+    <div class="container">
+      <h2>Produk Unggulan</h2>
+      <div class="grid">
+
+        <div class="card" style="width: 18rem;">
+          <img src="Bb.jpg" class="card-img-top" alt="Americano">
+          <div class="card-body">
+            <span class="badge drink">Minuman • Kopi</span>
+            <h5 class="card-title">Americano Coffee</h5>
+            <p class="card-text">⭐⭐⭐⭐⭐ (5.0)</p>
+            <p class="price">Rp 18.000</p>
+            <div class="qty-selection">
+              <span>Qty</span>
+              <input type="number" class="buy-qty" value="1" min="1" data-price="18000">
+            </div>
+            <button class="btn buy-btn">Beli</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="P.jpg" class="card-img-top" alt="Latte">
+          <div class="card-body">
+            <span class="badge drink">Minuman • Kopi</span>
+            <h5 class="card-title">Latte Coffee</h5>
+            <p class="card-text">⭐⭐⭐⭐ (4.0)</p>
+            <p class="price">Rp 22.000</p>
+            <div class="qty-selection">
+              <span>Qty</span>
+              <input type="number" class="buy-qty" value="1" min="1" data-price="22000">
+            </div>
+            <button class="btn buy-btn">Beli</button>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+          <img src="Re.jpg" class="card-img-top" alt="Latte">
+          <div class="card-body">
+            <span class="badge drink">Minuman • Kopi</span>
+            <h5 class="card-title">Red Eye</h5>
+            <p class="card-text">⭐⭐⭐⭐ (4.0)</p>
+            <p class="price">Rp 22.000</p>
+            <div class="qty-selection">
+              <span>Qty</span>
+              <input type="number" class="buy-qty" value="1" min="1" data-price="22000">
+            </div>
+            <button class="btn buy-btn">Beli</button>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+          <img src="U.jpg" class="card-img-top" alt="Latte">
+          <div class="card-body">
+            <span class="badge drink">Minuman • Kopi</span>
+            <h5 class="card-title">Cappucino</h5>
+            <p class="card-text">⭐⭐⭐⭐ (4.0)</p>
+            <p class="price">Rp 19.000</p>
+            <div class="qty-selection">
+              <span>Qty</span>
+              <input type="number" class="buy-qty" value="1" min="1" data-price="19000">
+            </div>
+            <button class="btn buy-btn">Beli</button>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+          <img src="ep.jpg" class="card-img-top" alt="Latte">
+          <div class="card-body">
+            <span class="badge drink">Minuman • Kopi</span>
+            <h5 class="card-title">Espersso</h5>
+            <p class="card-text">⭐⭐⭐⭐ (5.0)</p>
+            <p class="price">Rp 25.000</p>
+            <div class="qty-selection">
+              <span>Qty</span>
+              <input type="number" class="buy-qty" value="1" min="1" data-price="25000">
+            </div>
+            <button class="btn buy-btn">Beli</button>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+          <img src="fl.jpg" class="card-img-top" alt="Latte">
+          <div class="card-body">
+            <span class="badge drink">Minuman • Kopi</span>
+            <h5 class="card-title">Flat white</h5>
+            <p class="card-text">⭐⭐⭐⭐ (3.0)</p>
+            <p class="price">Rp 20.000</p>
+            <div class="qty-selection">
+              <span>Qty</span>
+              <input type="number" class="buy-qty" value="1" min="1" data-price="20000">
+            </div>
+            <button class="btn buy-btn">Beli</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="lt.jpg" class="card-img-top" alt="Tea">
+          <div class="card-body">
+            <span class="badge drink">Minuman • Teh</span>
+            <h5 class="card-title">Iced Lemon Tea</h5>
+            <p class="card-text">⭐⭐⭐⭐ (4.3)</p>
+            <p class="price">Rp 15.000</p>
+            <div class="qty-selection">
+              <span>Qty</span>
+              <input type="number" class="buy-qty" value="1" min="1" data-price="15000">
+            </div>
+            <button class="btn buy-btn">Beli</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="ml.jpg" class="card-img-top" alt="Matcha">
+          <div class="card-body">
+            <span class="badge drink">Minuman • Matcha</span>
+            <h5 class="card-title">Matcha Latte</h5>
+            <p class="card-text">⭐⭐⭐⭐⭐ (4.8)</p>
+            <p class="price">Rp 24.000</p>
+            <div class="qty-selection">
+              <span>Qty</span>
+              <input type="number" class="buy-qty" value="1" min="1" data-price="24000">
+            </div>
+            <button class="btn buy-btn">Beli</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="cc.jpg" class="card-img-top" alt="Cake">
+          <div class="card-body">
+            <span class="badge snack">Makanan • Ringan</span>
+            <h5 class="card-title">Chocolate Cake</h5>
+            <p class="card-text">⭐⭐⭐⭐⭐ (4.9)</p>
+            <p class="price">Rp 18.000</p>
+            <div class="qty-selection">
+              <span>Qty</span>
+              <input type="number" class="buy-qty" value="1" min="1" data-price="18000">
+            </div>
+            <button class="btn buy-btn">Beli</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="cr.jpg" class="card-img-top" alt="Croissant">
+          <div class="card-body">
+            <span class="badge snack">Makanan • Ringan</span>
+            <h5 class="card-title">Croissant</h5>
+            <p class="card-text">⭐⭐⭐⭐ (4.4)</p>
+            <p class="price">Rp 16.000</p>
+            <div class="qty-selection">
+              <span>Qty</span>
+              <input type="number" class="buy-qty" value="1" min="1" data-price="16000">
+            </div>
+            <button class="btn buy-btn">Beli</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="bg.jpg" class="card-img-top" alt="Burger">
+          <div class="card-body">
+            <span class="badge meal">Makanan • Berat</span>
+            <h5 class="card-title">mini Burger</h5>
+            <p class="card-text">⭐⭐⭐⭐⭐ (4.7)</p>
+            <p class="price">Rp 28.000</p>
+            <div class="qty-selection">
+              <span>Qty</span>
+              <input type="number" class="buy-qty" value="1" min="1" data-price="28000">
+            </div>
+            <button class="btn buy-btn">Beli</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="rb.jpg" class="card-img-top" alt="Rice Bowl">
+          <div class="card-body">
+            <span class="badge meal">Makanan • Berat</span>
+            <h5 class="card-title">Chicken Rice Bowl</h5>
+            <p class="card-text">⭐⭐⭐⭐ (4.5)</p>
+            <p class="price">Rp 26.000</p>
+            <div class="qty-selection">
+              <span>Qty</span>
+              <input type="number" class="buy-qty" value="1" min="1" data-price="26000">
+            </div>
+            <button class="btn buy-btn">Beli</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="maps-contact">
+    <div class="container maps-grid">
+      <div class="contact-box">
+        <h2>Contact Us</h2>
+        <p><i class="bi bi-geo-alt"></i> Bandung, Jawa Barat</p>
+        <p><i class="bi bi-telephone"></i> +62 895-3976-60506</p>
+        <p><i class="bi bi-envelope"></i> deznero@gmail.com</p>
+        <div class="contact-social">
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+        </div>
+      </div>
+
+      <div class="maps-box">
+        <h2>Lokasi Toko Kami</h2>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.839850123456!2d107.619123!3d-6.917464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTUnMDIuOCJTIDEwN8KwMzcnMDguOCJF!5e0!3m2!1sen!2sid!4v1234567890"
+          width="100%" 
+          height="350" 
+          style="border-radius:15px; border:0;" 
+          allowfullscreen 
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-box">
+        <h3><i class="bi bi-cup-hot"></i> NERO COFFEE</h3>
+        <p>Nikmati kopi terbaik dengan suasana nyaman dan pelayanan ramah.</p>
+      </div>
+
+      <div class="footer-box">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#maps-contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-box">
+        <h4>Contact Us</h4>
+        <p><i class="bi bi-geo-alt"></i> Bandung, Jawa Barat</p>
+        <p><i class="bi bi-telephone"></i> +62 895-3976-60506</p>
+        <p><i class="bi bi-envelope"></i> deznero@gmail.com</p>
+      </div>
+
+      <div class="footer-box">
+        <h4>Follow Us</h4>
+        <div class="footer-social">
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 NERO COFFEE SHOP — All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="script2.js"></script>
+</body>
+</html>
