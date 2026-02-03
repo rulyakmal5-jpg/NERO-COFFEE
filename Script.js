@@ -35,7 +35,7 @@ loginForm.addEventListener('submit', function (e) {
     localStorage.setItem("username", savedUser?.username || "Ruly");
 
     alert("Login berhasil skuy ngopi!");
-    window.location.href = "Index.html";
+    window.location.href = "index.html";
   } else {
     alert("Hayohhh salah!! gak bisa ngopi loh!");
   }
