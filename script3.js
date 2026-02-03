@@ -54,7 +54,7 @@ function renderCart() {
       <h3 style="font-weight: 400;">Total yang harus dibayar:</h3>
       <h2 style="color: #00ff88; font-size: 2rem; margin: 10px 0;">Rp ${totalBelanja.toLocaleString()}</h2>
       <div style="display: flex; justify-content: flex-end; gap: 15px; margin-top: 20px;">
-         <a href="Index.html" class="btn" style="background: #444; width: 160px; text-decoration: none; line-height: 45px; text-align: center;">Tambah Produk</a>
+         <a href="index.html" class="btn" style="background: #444; width: 160px; text-decoration: none; line-height: 45px; text-align: center;">Tambah Produk</a>
          <button class="btn" style="width: 220px;" onclick="checkout()">Checkout via WhatsApp</button>
       </div>
     </div>
